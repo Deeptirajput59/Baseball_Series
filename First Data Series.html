@@ -1,0 +1,168 @@
+<--Deepti Rajput
+   UID: drajp2@uis.edu
+   Course: CSC 540-->  
+<html>
+<head >
+	<title></title><link rel="stylesheet" type="text/css" href="grs.css">
+</head>
+<body bgcolor="black">
+
+<center ><h1><b><font size="10"><font color="Gold">Baseball Momentum Project</font> </h1></center></font></b><br>
+<div class="navbar">
+<div class="container">
+<ul>
+        <li><a href="about_us.html"> About Us </a></li>
+		<li><a href="Cover Page.html"> Cover Page </a></li>
+        <li><a href="First Data Series.html"> First Data Series </a></li>
+	<li><a href="Second Data Series.html"> Second Data Series </a></li>
+	<li><a href="Third Data Series.html"> Third Data Series </a></li>
+	<li><a href="Conclusion.html"> Conclusion </a></li>
+</ul>
+</div>
+</div>
+<p>
+<font size="5"><font color="Gold">
+The first line/data-series will graph a point for each series, where the x-coordinate reflects "how hot the winning team was" minus "how hot the losing team was".
+We measure this by looking at the winning pct in the final (non-trivial) month before the series. That is for month of september.<br>
+<ol>
+<li>Atlanta Braves vs Cleveland Indians </li>
+
+Atlanta Braves:16-11(.593 WPCT)<br> 
+Cleveland Indians:19-9(0.679WPCT)<br>
+Difference:.593−.679=-.086 <br>
+Atlanta Braves beat Cleveland Indians 4-2 in that series, for a winning pct of 0.667. Thus, <-.086, .667> is the first data pair in this data series.<br><br>
+
+<li>Cleveland Indians vs Seattle Mariners</li>
+Cleveland Indians:19-9(.679 WPCT)<br>
+Seattle Mariners:19-8(.704 WPCT)<br>
+Difference:.679-.704=-.025<br>
+Cleveland Indians beat Seattle Mariners 4-2 in that series, for a winning pct of 0.667. Thus, <-.025, .667> is the second data pair in this data series.<br><br>
+
+<li>Atlanta Braves vs Cicinati Reds</li>
+Atlanta Braves:16-11(.593 WPCT) <br>
+Cicinati Reds:12-16(.429 WPCT)<br>
+Difference:.593-.429=0.164<br>
+Atlanta Braves beat Cicinati Reds 4-0 in that series, for a winning pct of 1.000. Thus, <.164,1.000> is the third data pair in this data series.<br><br>
+
+<li>Cleveland Indians vs Boston Red Sox</li>
+Cleveland Indians:19-9(.679 WPCT)<br>
+Boston Red Sox:15-12(.556 WPCT)<br>
+Difference:.679-.556=.123<br>
+Cleveland Indians beat Boston Red Sox 3-0 in that series, for a winning pct of 1.000. Thus, <.123, 1.000> is the fourth data pair in this data series.<br><br>
+
+<li>Seattle Mariners vs New York Yankees</li>
+Seattle Mariners:19-8(.704 WPCT)<br>
+New York Yankees:21-6(.778 WPCT)<br>
+Difference:.704-.778=-.074<br>
+Seattle Mariners beat New York Yankees 3-2 in that series, for a winning pct of 0.6 Thus, <-.074, .6> is the fifth data pair in this data series.<br><br>
+
+<li>Atlanta Braves vs Colorado Rockies</li>
+Atlanta Braves:16-11(.593 WPCT) <br>
+Colorado Rockies:16-11(.593 WPCT)<br>
+Difference:.593-.593=.000<br>
+Atlanta Braves beat Colorado Rockies 3-1 in that series, for a winning pct of 0.75. Thus, <.000,.75> is the sixth data pair in this data series.<br><br>
+
+<li>Cicinati Reds vs Los Angeles Dodgers</li>
+Cicinati Reds:12-16(.429 WPCT)<br>
+Los Angeles Dodgers:16-10(.615 WPCT)<br>
+Difference:.429-.615=-.186<br>
+Cicinati Reds beat Los Angeles Dodgers 3-0 in that series, for a winning pct of 1.000. Thus, <-.186,1.000> is the seventh data pair in this data series.
+</ol>
+</p>
+<center>
+<table style="width:100%">
+<table>
+
+<style> 
+th, td {
+    border: 1px solid Green;
+	border-collapse: collapse;
+	
+}
+</style>
+
+
+  <tr>
+    <th><font size="5"><font color="Gold">Playoff Pair</th>
+    <th><font size="5"><font color="Gold">September(X)</th> 
+	<th><font size="5"><font color="Gold">Series Winning Team PCT(Y)</th>
+  </tr>
+  <tr>
+    <td><font size="5"><font color="Gold">Atlanta Braves vs Cleveland Indians</td>
+    <td><font size="5"><font color="Gold">-.086</td>  
+    <td><font size="5"><font color="Gold"> 0.667</td>
+  </tr>
+  <tr>
+    <td><font size="5"><font color="Gold">Cleveland Indians vs Seattle Mariners</td>
+    <td><font size="5"><font color="Gold">-.025</td> 
+    <td><font size="5"><font color="Gold">0.667</td>
+	
+  </tr>
+    <tr>
+    <td><font size="5"><font color="Gold">Atlanta Braves vs Cicinati Reds</td>
+    <td><font size="5"><font color="Gold">0.164</td> 
+    <td><font size="5"><font color="Gold">1.000</td>
+  </tr>
+  
+    <tr>
+    <td><font size="5"><font color="Gold">Cleveland Indians vs Boston Red Sox</td>
+    <td><font size="5"><font color="Gold">.123</td> 
+    <td><font size="5"><font color="Gold">1.000</td>
+  </tr>
+  
+    <tr>
+    <td><font size="5"><font color="Gold">Seattle Mariners vs New York Yankees</td>
+    <td><font size="5"><font color="Gold">-.074</td> 
+    <td><font size="5"><font color="Gold">0.6 </td>
+  </tr>
+  
+    <tr>
+    <td><font size="5"><font color="Gold">Atlanta Braves vs Colorado Rockies</td>
+    <td><font size="5"><font color="Gold">0.0</td> 
+    <td><font size="5"><font color="Gold">0.75</td>
+  </tr>
+  
+    <tr>
+    <td><font size="5"><font color="Gold">Cicinati Reds vs Los Angeles Dodgers</td>
+    <td><font size="5"><font color="Gold">-.186</td> 
+    <td><font size="5"><font color="Gold">1.000</td>
+  </tr>
+  </center>
+</table>
+<center><p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style>
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+ <font color="Black">
+<div id="flip">Click to slide the Graph</div>
+<div id="panel"><img src="1.PNG" alt="No Image Available" style="width:800px;height:500px;"/></center></img></div>
+
+</p>
+
+
+</font>	
+<center>
+
+</body>
+</html>
